@@ -4,6 +4,10 @@ title:  "CPC Kattis Guide"
 date:   2022-10-23 18:17:42 -0400
 categories: 
 ---
+![IMPORTANT! PLEASE FILL OUT THIS FORM FOR OUR CURRENT CONTEST](https://forms.gle/p6UdZo9w2rv3H7h87)
+
+*If competitive programming is new to you, feel free to check out some additional reference links at the bottom of the page.*
+
 Kattis is a competitive programming platform we use in the UNH CPC. 
 The Kattis Problem Archive holds over 3,500 programming problems with a wide range of difficulty.
 The platform also supports auto-grading in dozens of coding languages. 
@@ -99,3 +103,15 @@ Once time is over, whoever has the highest # of points will become the winner of
 Points are solely determined by how long it took to solve the problem, with quicker solutions earning more points. 
 <u>Difficulty does not impact score, so solve easy problems first.</u>
 You can click on the **Standings Tab** to see everyone's current scores and what problems people are working on. 
+
+# Additional Resources
+
+Need more help getting started with Kattis? Checkout the link below for language specific guides made by Kattis themselves. 
+These guides cover ore about input and output, which is essential for solving problems on their site.
+[Language-specific Kattis Tutorial (7 Min read)](https://open.kattis.com/help)
+
+Interested in learning more about Competitive Programming in general? Here's an article by USACO, 
+which contains a high-level overview of Competitive Programming, common themes, and example problems.
+Includes an example with full solutions in multiple languages from Kattis.
+[Introduction to competitive programming with USACO (15-30 min read)](https://usaco.guide/general/intro-cp?lang=cpp)
+
