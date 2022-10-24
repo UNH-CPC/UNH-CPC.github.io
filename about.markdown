@@ -19,4 +19,5 @@ Check us out at
 Or join our 
 [Discord](https://discord.com/invite/cUbRTvbV4j)
 
+this website is still under development :)
 
