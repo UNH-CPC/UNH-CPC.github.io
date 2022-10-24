@@ -108,11 +108,11 @@ You can click on the **Standings Tab** to see everyone's current scores and what
 # Additional Resources
 
 Need more help getting started with Kattis? Checkout the link below for language specific guides made by Kattis themselves. 
-These guides cover ore about input and output, which is essential for solving problems on their site.
+These guides cover ore about input and output, which is essential for solving problems on their site.  
 [Language-specific Kattis Tutorial (7 Min read)](https://open.kattis.com/help)
 
 Interested in learning more about Competitive Programming in general? Here's an article by USACO, 
 which contains a high-level overview of Competitive Programming, common themes, and example problems.
-Includes an example with full solutions in multiple languages from Kattis.
+Includes an example with full solutions in multiple languages from Kattis.  
 [Introduction to competitive programming with USACO (15-30 min read)](https://usaco.guide/general/intro-cp?lang=cpp)
 
