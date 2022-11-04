@@ -9,6 +9,24 @@ categories:
 
 *Sorted as Latest at the top to Earliest at the bottom*
 
+#### 11/03/2022: <a href = "https://open.kattis.com/contests/vsrcu6/"> 2-Hour Kattis Contest with Prizes</a><br>
+First Place Winner: Carson Loughridge <a href="https://open.kattis.com/users/carson-loughridge">@kattis</a><br>
+Second Place Winner: Daniel Svendsen <a href="https://open.kattis.com/users/daniel-svendsen">@kattis</a><br>
+Third Place Winner: Maxwell Nobrega <a href="https://open.kattis.com/users/maxwell-nobrega">@kattis</a><br>
+<ul>
+	<li><a href = "https://open.kattis.com/problems/jobexpenses">Job Expenses</a></li>
+	<li><a href = "https://open.kattis.com/problems/tetris">Tetris</a></li>
+	<li><a href = "https://open.kattis.com/problems/nineknights">Nine Knights</a></li>
+	<li><a href = "https://open.kattis.com/problems/bard">Bard</a></li>
+	<li><a href = "https://open.kattis.com/problems/breakingbad">Breaking Bad</a></li>
+	<li><a href = "https://open.kattis.com/problems/dungeon">Dungeon Master</a></li>
+	<li><a href = "https://open.kattis.com/problems/rockpaperscissors">Rock-Paper-Scissors Tournament</a></li>
+	<li><a href = "https://open.kattis.com/problems/musiccollection">Music Collection</a></li>
+	<li><a href = "https://open.kattis.com/problems/randommanhattan">Random Manhattan Distance</a></li>
+	<li><a href = "https://open.kattis.com/problems/minecraftdungeons">Minecraft Dungeons</a></li>
+</ul>
+
+
 #### 10/27/2022: New Non-Contest Format
 <ul>
 	<li><a href = "https://open.kattis.com/problems/chocolatedivision">Warmup Problem: Chocolate Division (Kattis)</a></li>
