@@ -5,7 +5,7 @@ date:   2022-10-28 08:17:42 -0400
 categories: 
 ---
 *A Brief Summary of the Problems In Every Meeting starting from the 2022 Fall Semester.*  
-*Document last updated on 11/11/2022* 
+*Document last updated on 11/11/2022*
 
 *Sorted as Latest at the top to Earliest at the bottom*
 
