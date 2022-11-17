@@ -7,7 +7,8 @@ categories:
 *A Brief Summary of the Problems In Every Meeting starting from the 2022 Fall Semester.*  
 *Document last updated on 11/17/2022*
 
-*Sorted as Latest at the top to Earliest at the bottom. <a href="#bottom">Click here to go to the bottom of the page.</a>* <br>
+*Sorted as Latest at the top to Earliest at the bottom. <a href="#bottom">Click here to go to the bottom of the page.</a>*
+
 Quick Links
 <ul> 
 	<li><a href = "#nov22">November</a></li>
@@ -125,3 +126,18 @@ First Place Winner: Cristian Colon <a href="https://open.kattis.com/users/cecolo
 </ul>
 
 <div id = "bottom"></div> 
+
+#### 09/08/2022:<a href = "https://open.kattis.com/contests/ayw6gw"> 64-Hour Kattis Contest</a><br>
+<ul>
+	<li><a href="https://open.kattis.com/problems/downfall">Disastrous Downfall</a></li>
+	<li><a href="https://open.kattis.com/problems/rimski">Rimski</a></li>
+	<li><a href="https://open.kattis.com/problems/palindromicpassword">Palindromic Password</a></li>
+	<li><a href="https://open.kattis.com/problems/birthday">Birthday Party</a></li>
+	<li><a href="https://open.kattis.com/problems/gruesomecave">Gruesome Cave</a></li>
+	<li><a href="https://open.kattis.com/problems/morsecodepalindromes">Morse Code Palindromes</a></li>
+	<li><a href="https://open.kattis.com/problems/goodmorning">Good Morning</a></li>
+	<li><a href="https://open.kattis.com/problems/muzicari">Muzicari</a></li>
+	<li><a href="https://open.kattis.com/problems/evolutions">Evolutions</a></li>
+	<li><a href="https://open.kattis.com/problems/imperfectgps">Imperfect GPS</a></li>
+
+</ul>

@@ -21,3 +21,4 @@ Or join our
 
 this website is still under development :)
 
+<img src = "/assets/cpc-rectangle-logo-crop.png" alt = "CPC logo" width = "20%" height = "20%">
