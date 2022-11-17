@@ -7,9 +7,18 @@ categories:
 *A Brief Summary of the Problems In Every Meeting starting from the 2022 Fall Semester.*  
 *Document last updated on 11/17/2022*
 
-*Sorted as Latest at the top to Earliest at the bottom*
+*Sorted as Latest at the top to Earliest at the bottom. <a href="#bottom">Click here to go to the bottom of the page.</a>* <br>
+Quick Links
+<ul> 
+	<li><a href = "#nov22">November</a></li>
+	<li><a href = "#oct22">October</a></li>
+	<li><a href = "#sep22">September</a></li>
+</ul>
 
-#### 11/10/2022: <a href= "https://open.kattis.com/contests/ovi6xk"> Week-Long Kattis Contest</a><br> + Some CSES.FI Problems
+
+<div id = "nov22"></div>
+
+#### 11/10/2022: <a href= "https://open.kattis.com/contests/ovi6xk"> Week-Long Kattis Contest</a> + Some CSES.FI Problems<br>
 Winner: None
 <ul>
 	<li><a href = "https://open.kattis.com/contests/ovi6xk/problems/interpreter">Interpreter</a></li>
@@ -19,8 +28,8 @@ Winner: None
 	<li><a href = "https://open.kattis.com/contests/ovi6xk/problems/metaprogramming">Metaprogramming</a></li>
 	<li><a href = "https://open.kattis.com/contests/ovi6xk/problems/olderbrother">Older Brother</a></li>
 	<li><a href = "https://open.kattis.com/contests/ovi6xk/problems/quickscope">Quickscope</a></li>
-	<li><a href = "https://cses.fi/problemset/task/1623/">Apple Division</a></li>
-	<li><a href = "https://cses.fi/problemset/task/2215">Monotone Subsequences</a></li>
+	<li><a href = "https://cses.fi/problemset/task/1623/">Apple Division (cses.fi)</a></li>
+	<li><a href = "https://cses.fi/problemset/task/2215">Monotone Subsequences (cses.fi)</a></li>
 </ul>
 
 
@@ -40,6 +49,8 @@ Third Place Winner: Maxwell Nobrega <a href="https://open.kattis.com/users/maxwe
 	<li><a href = "https://open.kattis.com/problems/randommanhattan">Random Manhattan Distance</a></li>
 	<li><a href = "https://open.kattis.com/problems/minecraftdungeons">Minecraft Dungeons</a></li>
 </ul>
+
+<div id = "oct22"></div>
 
 
 #### 10/27/2022: New Non-Contest Format
@@ -76,6 +87,9 @@ First Place Winner: Spencer Pham <a href="https://open.kattis.com/users/spencer-
 	<li><a href="https://open.kattis.com/problems/toys">Toys</a></li>
 </ul>
 
+<div id = "sep22"></div>
+
+
 #### 09/29/2022:<a href = "https://open.kattis.com/contests/onp7ce"> Week-Long Kattis Contest Format</a><br>
 First Place Winner: Matthew Laflamme <a href="https://open.kattis.com/users/matthew-laflamme">@kattis</a><br>
 <ul>
@@ -110,3 +124,4 @@ First Place Winner: Cristian Colon <a href="https://open.kattis.com/users/cecolo
 	<li><a href="https://open.kattis.com/problems/neutralground">Neutral Ground</a></li>
 </ul>
 
+<div id = "bottom"></div> 
