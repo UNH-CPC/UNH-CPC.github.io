@@ -4,9 +4,6 @@ title:  "CPC Kattis Guide"
 date:   2022-10-23 18:17:42 -0400
 categories: 
 ---
-[IMPORTANT! PLEASE FILL OUT THIS FORM FOR OUR CURRENT CONTEST](https://forms.gle/p6UdZo9w2rv3H7h87)
-**ALSO: THE ROOM IS OFFICIALLY KINGSBURY N113**
-
 *If competitive programming is new to you, feel free to check out some additional reference links at the bottom of the page.*
 
 Kattis is a competitive programming platform we use in the UNH CPC. 

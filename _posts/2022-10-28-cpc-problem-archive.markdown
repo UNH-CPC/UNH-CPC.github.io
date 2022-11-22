@@ -5,7 +5,7 @@ date:   2022-10-28 08:17:42 -0400
 categories: 
 ---
 *A Brief Summary of the Problems In Every Meeting starting from the 2022 Fall Semester.*  
-*Document last updated on 11/17/2022*
+*Document last updated on 11/22/2022*
 
 *Sorted as Latest at the top to Earliest at the bottom. <a href="#bottom">Click here to go to the bottom of the page.</a>*
 
@@ -18,6 +18,12 @@ Quick Links
 
 
 <div id = "nov22"></div>
+
+#### 11/17/2022: (NON-CONTEST) One Main Problem Week
+<ul>
+	<li><a href = "https://cses.fi/problemset/task/1754">Warmup Problem: Coin Piles</a></li>
+	<li><a href = "https://cses.fi/problemset/task/1140">Projects</a></li>
+</ul>
 
 #### 11/10/2022: <a href= "https://open.kattis.com/contests/ovi6xk"> Week-Long Kattis Contest</a> + Some CSES.FI Problems<br>
 Winner: None
