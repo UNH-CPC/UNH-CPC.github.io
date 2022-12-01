@@ -11,9 +11,18 @@ categories:
 
 Quick Links
 <ul> 
+	<li><a href = "#dec22">December</a></li>
 	<li><a href = "#nov22">November</a></li>
 	<li><a href = "#oct22">October</a></li>
 	<li><a href = "#sep22">September</a></li>
+</ul>
+
+<div id = "dec22"></div>
+
+#### 12/1/2022: Two Problems - LAST PROBLEM MEETING OF THE YEAR!!
+<ul>
+	<li><a href = "https://open.kattis.com/problems/breakingbad">Breaking Bad</a></li>
+	<li><a href = "https://open.kattis.com/problems/coveredwalkway">Covered Walkway</a></li>
 </ul>
 
 
