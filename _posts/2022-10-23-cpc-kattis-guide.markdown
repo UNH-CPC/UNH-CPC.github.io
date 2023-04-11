@@ -4,6 +4,11 @@ title:  "CPC Kattis Guide"
 date:   2022-10-23 18:17:42 -0400
 categories: 
 ---
+*UPDATE FROM APRIL 11th, 2023. AN EMAIL WAS JUST SENT OUT WITH A QR CODE LEADING TO THIS PAGE.*
+*THE EMAIL HAD AN OUTDATED POSTER ATTACHED. WE APOLOGIZE. THE CONTEST IS APRIL 13, 6:00-8:30 PM IN THE M.A.C.*
+*PLEASE RSVP USING THE FOLLOWING LINK:*
+[RSVP for our APRIL 13th CONTEST.](https://docs.google.com/forms/d/1z62RlzyY2cWvwVCBJ_k_RVRw8j3YVxNKyyDGeHGkziM/edit)
+
 *If competitive programming is new to you, feel free to check out some additional reference links at the bottom of the page.*
 
 Kattis is a competitive programming platform we use in the UNH CPC. 
