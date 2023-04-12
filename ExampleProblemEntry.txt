@@ -1,0 +1,67 @@
+ <!-- ============================================== ENTRY SPLIT =============================================== -->
+    <!-- ============================================== ENTRY SPLIT =============================================== -->
+    <!-- ============================================== ENTRY SPLIT =============================================== -->
+
+
+    <div class="entry_header">March 2nd, 2023: Standard Meeting</div>
+
+    <div class ="main_entry" id="03_02_23">
+        <div class="bar_divider">&nbsp</div>
+
+        <table class="problem_listings">
+            <tr>
+                <th><u>Problems</u></th>                
+            </tr>
+            <tr>
+                <td>
+                    <button onclick="displayProblemDesc('03_02_23', 'nameA_00_00_00')">
+                        <div class="main_entry_arrow">^</div>
+                        Collecting Numbers II*</button>
+                </td>
+                
+            </tr>
+            <tr>
+                <td>
+                    <button onclick="displayProblemDesc('03_02_23', 'nameB_00_00_00')">
+                        <div class="main_entry_arrow">^</div>
+                        Sum of Four Values</button>
+                </td>
+            </tr>
+
+        </table>
+
+        <table class="problem_content_table">
+            <tr>
+                <th><u>Problem Summary</u></th>
+            </tr>
+            <tr>
+                <td class="problem_content_main" id="nameA_00_00_00">
+                    some content
+                    <br/>
+                    <br/>
+                    <a href="https://cses.fi/problemset/task/2217" target="_blank">source: cses.fi</a>
+                </td>
+
+
+                <td class="problem_content_main" id="nameB_00_00_00">
+                    Some other content
+                    <br/>
+                    <br/>
+                    <a href="https://open.kattis.com/problems/workstations" target="_blank">source: open.kattis.com</a>
+                </td>
+
+            </tr>
+        </table>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+    </div>
+
+    <br/>
+    <br/>
+
+
+    <!-- ============================================== ENTRY SPLIT =============================================== -->
+    <!-- ============================================== ENTRY SPLIT =============================================== -->
+    <!-- ============================================== ENTRY SPLIT =============================================== -->

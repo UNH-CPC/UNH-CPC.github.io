@@ -1,0 +1,237 @@
+:root {
+    --dark: #0A2126;
+    --semi-dark: #253C3F;
+    --green-neon: #33cc00;
+    --green-dark: #227f00;
+
+    --platinum: #e5e5e5;
+    --quicksilver:#a8a8a8; 
+}
+
+HTML {
+    background-color: aliceblue;
+    color: var(--green-neon);
+}
+.sidebar {
+    position: fixed;
+    z-index: 99;
+    left:0;
+    top:0;
+    background-color: var(--dark);
+    width: 130px;
+    height:100%;
+    font-size: 1rem;
+    font-family: 'Ubuntu Mono', monospace;
+    line-height: 1.25rem;
+    padding-left: 10px;
+    padding-right: 10px;
+    /* letter-spacing: 0.05rem; */
+    
+}
+
+.sidebar_element {
+    margin:0;
+    list-style: none;
+    /* list-style:square; */
+    padding-top: 0;
+    padding-left: 0%;
+
+}
+
+.sidebar_listelem {
+    background-color:var(--semi-dark);
+    border-radius: 5px;
+    padding-left:20px;
+    
+}
+
+.sidebar_label {
+    cursor:pointer;
+    background-color:var(--dark);
+    border-radius: 5px;
+    text-align: left;
+    border: none;
+    font-size: 1rem;
+    font-family: 'Ubuntu Mono', monospace;
+    color: var(--green-neon);
+}
+
+.sidebar_label:hover {
+    color:var(--platinum);
+}
+
+.sidebar_button {
+
+    cursor:pointer;
+    background-color:var(--dark);
+    border-radius: 5px;
+    width: 100%;
+    padding-left:20px;
+    /* padding-right:70px; */
+    text-align: left;
+    border: none;
+    font-size: 1rem;
+    font-family: 'Ubuntu Mono', monospace;
+    color: var(--green-neon);
+    
+    max-height: 0;
+    overflow: hidden;
+
+    transition-property: background-color, color, padding-left, max-height;
+    transition-duration: 0.2s;
+    /* display: none; */
+}
+
+
+.sidebar_button:hover {
+    background-color:var(--semi-dark);
+    padding-left:30px;
+
+    color:var(--platinum);
+}
+
+.sidebar_arrow {
+    position:absolute;
+    left: 3px;
+    transform: rotate(90deg);
+    transition-property: transform;
+    transition-duration: 0.2s;
+}
+
+.main_entry {
+    position: relative;
+    left: 170px;
+    padding:10px;
+    width:80%;
+    background-color: var(--semi-dark);
+    border-radius: 0 0 20px 20px;
+    border:var(--dark);
+}
+
+a {
+    color: var(--platinum);
+}
+
+.entry_header {
+    color:var(--platinum);
+    font-family: 'Ubuntu Mono', monospace;
+
+    position: relative;
+    display:block;
+    min-height: 10px;
+    background-color: var(--dark);
+    border-radius: 20px 20px 0px 0px;
+    width:80%;
+    padding:10px;
+    left: 170px;}
+
+.bar_divider {
+    position: absolute;
+    left: 37vh;
+    display:block;
+    height:90%;
+    background-color: var(--green-dark);
+    width:5px;
+    border-radius: 20px;
+}
+
+.divider_vis {
+    background-color: var(--green-neon);    
+}
+
+.divider_invis {
+    background-color: var(--dark);
+    width: 2vh;
+}
+
+.main_entry table {
+    font-family: 'Ubuntu Mono', monospace;
+    text-align: left;
+    /* border: 1px solid black; */
+    border-collapse: collapse;
+}
+
+
+.problem_listings th:first-child {
+    width: 35vh; /* Set the width of the first column to 100 pixels */
+}
+
+
+
+.main_entry button {
+    cursor:pointer;
+    background-color:var(--dark);
+    border-radius: 5px;
+    width: 100%;
+    padding-left:20px;
+    text-align: left;
+    border: none;
+    font-size: 1rem;
+    font-family: 'Ubuntu Mono', monospace;
+    color: var(--green-neon);
+    
+    overflow: hidden;
+
+    transition-property: background-color, color, padding-left;
+    transition-duration: 0.2s;
+}
+
+.main_entry button:hover {
+    /* background-color:var(--semi-dark); */
+    color:var(--platinum);
+}
+
+.main_entry_arrow {
+    position:absolute;
+    left: 5px;
+    transform: rotate(90deg);
+    font-size: 0;
+    transition-property: left;
+    transition-duration: 0.2s;
+}
+
+.main_entry button:hover .main_entry_arrow {
+    font-size: 1rem;
+    left: 15px;
+}
+
+.problem_content_table {
+    position:absolute;
+    left: 40vh;
+    top: 1vh;
+    right: 2vh;
+}
+
+.problem_content_main {
+    /* background-color: var(--semi-dark);
+    padding:5px;
+    border-radius: 15px; */
+    text-align:left;
+    vertical-align: top;
+    height: 20vh;
+    overflow-y:scroll;
+}
+
+div ::-webkit-scrollbar {
+    font-size: 1rem; /* some useless value here, because we need webkit scrollbar property.*/
+}
+
+div ::-webkit-scrollbar-track {
+    background: var(--semi-dark);
+    border-radius: 10px;
+}
+
+div ::-webkit-scrollbar-thumb {
+    background: var(--green-dark);
+    border-radius: 10px;
+}
+
+
+
+
+
+.problem_content_footer {
+    text-align: left;
+    vertical-align: top;
+}
+

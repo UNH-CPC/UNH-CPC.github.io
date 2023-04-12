@@ -1,0 +1,426 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meeting Archive</title>
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu+Mono&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <script src="button.js"></script>
+    <div class="sidebar">
+        <u>Meeting Dates</u>
+        </br>
+        <div class="sidebar_group" id="spring2023">
+            <button onclick="dropdown('spring2023')" type="button" class="sidebar_label"> <div class="sidebar_arrow">^</div> /spr_2023/...</button>
+            
+            <ul class="sidebar_element">
+                <!-- <div class="sidebar_listelem"><li>/jan/</li></div> -->
+                <li><button onclick="scrollToSection()" type ="button" class="sidebar_button">/jan/</button></li>
+                <li><button type ="button" class="sidebar_button">/feb/</button></li>
+                <li><button type ="button" class="sidebar_button">/mar/</button></li>
+            </ul>
+        </div>
+
+        <div class="sidebar_group" id="autumn2022">
+            <button onclick="dropdown('autumn2022')" type="button" class="sidebar_label"> <div class="sidebar_arrow">^</div> /aut_2022/...</button>
+            
+            <ul class="sidebar_element">
+                <!-- <div class="sidebar_listelem"><li>/jan/</li></div> -->
+                <li><button onclick="test()" type ="button" class="sidebar_button">/sep/</button></li>
+                <li><button type ="button" class="sidebar_button">/oct/</button></li>
+                <li><button type ="button" class="sidebar_button">/nov/</button></li>
+                <li><button type ="button" class="sidebar_button">/dec/</button></li>
+            </ul>
+
+            </br>
+            </br>
+        </div>
+
+        
+    </div>
+
+    <!-- ============================================== SIDEBAR OVER ============================================== -->
+    <!-- ============================================== SIDEBAR OVER ============================================== -->
+    <!-- ============================================== SIDEBAR OVER ============================================== -->
+
+    <div class="entry_header" style="text-align: center;"><u>The Collaborative Programming Club's Meeting Archive</u></div>
+    <div class="main_entry" id="description">
+        <p style="margin-top: 0;">
+            This is our Meeting Archive. 
+            Here you can find a reference to all the problems 
+            we've covered in our meetings 
+            since the start of the Fall Semester of 2022. 
+            We've been active since 2021, 
+            but we only started keeping records in 2022. 
+            Most problems come from external websites such as 
+            <a href="https://open.kattis.com/problems" target="_blank">open.kattis.com</a>
+            and
+            <a href="https://cses.fi/problemset/" target="_blank">cses.fi</a>
+            , which are two sites that host their own problem archives.
+
+            <br/><br/>
+
+            On the leftside of each meeting entry is a list of every problem.
+            Click a listing to view a brief problem description, and a link to the page.
+            We select a lot of problems to cover each week, but we don't always get to each one.
+            The problems we focused on in each meeting will be noted with an asterisk *.
+        </p>
+    </div>
+
+    <br/>
+
+    <!-- ============================================== ENTRY SPLIT =============================================== -->
+    <!-- ============================================== ENTRY SPLIT =============================================== -->
+    <!-- ============================================== ENTRY SPLIT =============================================== -->
+
+    <div class="entry_header">March 9th, 2023: Standard Meeting</div>
+
+    <div class ="main_entry" id="03_09_23">
+        <div class="bar_divider">&nbsp</div>
+        <table class="problem_listings">
+            <tr>
+                <th><u>Problems</u></th>
+                
+                
+            </tr>
+            <tr>
+                <td>
+                    <button onclick="displayProblemDesc('03_09_23', 'collectingNumII_03_09_23')">
+                        <div class="main_entry_arrow">^</div>
+                        Collecting Numbers II*(cont)</button>
+                </td>
+                
+            </tr>
+            <tr>
+                <td>
+                    <button onclick="displayProblemDesc('03_09_23', 'treeMatching_03_09_23')">
+                        <div class="main_entry_arrow">^</div>
+                        Tree Matching</button>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <button onclick="displayProblemDesc('03_09_23', 'countingTowers_03_09_23')">
+                        <div class="main_entry_arrow">^</div>
+                        Counting Towers</button>
+                </td>
+            </tr>
+        </table>
+
+        <table class="problem_content_table">
+            <tr>
+                <th><u>Problem Summary</u></th>
+            </tr>
+            <tr>
+                <td class="problem_content_main" id="collectingNumII_03_09_23">
+                    You are given an array that contains each number between 1…n
+                     exactly once. Your task is to collect the numbers from 1
+                    to n in increasing order.
+                    <br/>
+                    <br/>
+                    On each round, you go through the array from left to right 
+                    and collect as many numbers as possible.
+                    <br/>
+                    <br/>
+                    Given m operations that swap two numbers in the array, 
+                    your task is to report the number of rounds after each operation.
+
+                    <br/>
+                    <br/>
+                    <a href="https://cses.fi/problemset/task/2217" target="_blank">source: cses.fi</a>
+                </td>
+
+                <td class="problem_content_main" id="treeMatching_03_09_23">
+                    You are given a tree consisting of n nodes.
+                    <br/>
+                    <br/>
+                    A matching is a set of edges where each node is an endpoint of at most one edge. What is the maximum number of edges in a matching?
+
+                    <br/>
+                    <br/>
+                    <a href="https://cses.fi/problemset/task/2217" target="_blank">source: cses.fi</a>
+                </td>
+
+                <td class="problem_content_main" id="countingTowers_03_09_23">
+                    Your task is to build a tower whose width is 2
+                    and height is n
+                   . You have an unlimited supply of blocks whose width and height are integers.                    
+                    <br/>
+                    <br/>
+                    Given n
+                    , how many different towers can you build? Mirrored and rotated towers are counted separately if they look different.
+                    <br/>
+                    <br/>
+                    <a href="https://cses.fi/problemset/task/2413" target="_blank">source: cses.fi</a>
+                </td>
+            </tr>
+        </table>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+    </div>
+
+    <br/>
+
+    <!-- ============================================== ENTRY SPLIT =============================================== -->
+    <!-- ============================================== ENTRY SPLIT =============================================== -->
+    <!-- ============================================== ENTRY SPLIT =============================================== -->
+
+
+    <div class="entry_header">March 2nd, 2023: Standard Meeting</div>
+
+    <div class ="main_entry" id="03_02_23">
+        <div class="bar_divider">&nbsp</div>
+
+        <table class="problem_listings">
+            <tr>
+                <th><u>Problems</u></th>                
+            </tr>
+            <tr>
+                <td>
+                    <button onclick="displayProblemDesc('03_02_23', 'collectingNumII_03_02_23')">
+                        <div class="main_entry_arrow">^</div>
+                        Collecting Numbers II*</button>
+                </td>
+                
+            </tr>
+            <tr>
+                <td>
+                    <button onclick="displayProblemDesc('03_02_23', 'sum_03_02_23')">
+                        <div class="main_entry_arrow">^</div>
+                        Sum of Four Values</button>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <button onclick="displayProblemDesc('03_02_23', 'beautiful_03_02_23')">
+                        <div class="main_entry_arrow">^</div>
+                        Beautiful Primes</button>
+                </td>
+            </tr> 
+            <tr>
+                <td>
+                    <button onclick="displayProblemDesc('03_02_23', 'workstations_03_02_23')">
+                        <div class="main_entry_arrow">^</div>
+                        Assigning Workstations</button>
+                </td>
+            </tr>
+        </table>
+
+        <table class="problem_content_table">
+            <tr>
+                <th><u>Problem Summary</u></th>
+            </tr>
+            <tr>
+                <td class="problem_content_main" id="collectingNumII_03_02_23">
+                    
+                    You are given an array that contains each number between 1…n
+                     exactly once. Your task is to collect the numbers from 1
+                    to n in increasing order.
+                    <br/>
+                    <br/>
+                    On each round, you go through the array from left to right 
+                    and collect as many numbers as possible.
+                    <br/>
+                    <br/>
+                    Given m operations that swap two numbers in the array, 
+                    your task is to report the number of rounds after each operation.
+
+                    <br/>
+                    <br/>
+                    <a href="https://cses.fi/problemset/task/2217" target="_blank">source: cses.fi</a>
+                </td>
+
+                <td class="problem_content_main" id="sum_03_02_23">
+                    You are given an array of n
+ integers, and your task is to find four values (at distinct positions) whose sum is x
+.
+                    <br/>
+                    <br/>
+                    <a href="https://cses.fi/problemset/task/1642" target="_blank">source: cses.fi</a>
+                </td>
+
+                <td class="problem_content_main" id="beautiful_03_02_23">
+                    John Nash has been cracking away at a cryptography problem that involves prime numbers. Given a positive integer N, the puzzle needs him to produce a “beautiful" list of N primes. A list of N primes numbers is considered beautiful if each prime is at most 
+1,000,000, and their product has exactly N digits.
+                    <br/>
+                    <br/>
+                    <a href="https://open.kattis.com/problems/beautifulprimes" target="_blank">source: open.kattis.com</a>
+                </td>
+
+                <td class="problem_content_main" id="workstations_03_02_23">
+                    Unused workstations lock themselves automatically if they are unused for more than 
+ minutes. After a workstation has locked itself, Penelope has to unlock it again for the next researcher using it. Given the exact schedule of arriving and leaving researchers, can you tell Penelope how many unlockings she may save by asking the researchers not to lock their workstations when they leave and assigning arriving researchers to workstations in an optimal way? You may assume that there are always enough workstations available.
+                    <br/>
+                    <br/>
+                    <a href="https://open.kattis.com/problems/workstations" target="_blank">source: open.kattis.com</a>
+                </td>
+
+            </tr>
+        </table>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+    </div>
+
+    <br/>
+    <br/>
+
+
+    <!-- ============================================== ENTRY SPLIT =============================================== -->
+    <!-- ============================================== ENTRY SPLIT =============================================== -->
+    <!-- ============================================== ENTRY SPLIT =============================================== -->
+
+
+    <div class="entry_header">February 23rd, 2023: CANCELED</div>
+
+    <div class ="main_entry" id="02_23_23">
+        No problems were completed during this meeting due to a remote snowday.
+        <br/>
+        <br/>
+    </div>
+
+    <br/>
+    <br/>
+
+    <!-- ============================================== ENTRY SPLIT =============================================== -->
+    <!-- ============================================== ENTRY SPLIT =============================================== -->
+    <!-- ============================================== ENTRY SPLIT =============================================== -->
+
+
+    <div class="entry_header">February 16th, 2023: Standard Meeting</div>
+
+    <div class ="main_entry" id="02_16_23">
+        <div class="bar_divider">&nbsp</div>
+
+        <table class="problem_listings">
+            <tr>
+                <th><u>Problems</u></th>                
+            </tr>
+            <tr>
+                <td>
+                    <button onclick="displayProblemDesc('02_16_23', 'editDist_02_16_23')">
+                        <div class="main_entry_arrow">^</div>
+                        Edit Distance</button>
+                </td>
+                
+            </tr>
+            <tr>
+                <td>
+                    <button onclick="displayProblemDesc('02_16_23', 'prufer_02_16_23')">
+                        <div class="main_entry_arrow">^</div>
+                        Prufer Code</button>
+                </td>
+            </tr>
+
+        </table>
+
+        <table class="problem_content_table">
+            <tr>
+                <th><u>Problem Summary</u></th>
+            </tr>
+            <tr>
+                <td class="problem_content_main" id="editDist_02_16_23">
+                    The edit distance between two strings is the minimum number of operations required to transform one string into the other.
+                    <br/><br/>
+                    The allowed operations are:
+                    <ul> 
+                    <li>Add one character to the string.</li>
+                    <li>Remove one character from the string.</li>
+                    <li>Replace one character in the string.</li>
+                    </ul>
+                    For example, the edit distance between LOVE and MOVIE is 2, because you can first replace L with M, and then add I.
+                    <br/><br/>
+                    Your task is to calculate the edit distance between two strings.
+                    <br/>
+                    <br/>
+                    <a href="https://cses.fi/problemset/task/1639" target="_blank">source: cses.fi</a>
+                </td>
+
+
+                <td class="problem_content_main" id="prufer_02_16_23">
+                    A  Prüfer code of a tree of n
+                    nodes is a sequence of n−2
+                    integers that uniquely specifies the structure of the tree.
+                   
+                   The code is constructed as follows: As long as there are at least three nodes left, find a leaf with the smallest label, add the label of its only neighbor to the code, and remove the leaf from the tree.
+                   
+                   Given a Prüfer code of a tree, your task is to construct the original tree.
+                    <br/>
+                    <br/>
+                    <a href="https://cses.fi/problemset/task/1134" target="_blank">source: cses.fi</a>
+                </td>
+
+            </tr>
+        </table>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+    </div>
+
+    <br/>
+    <br/>
+
+
+    <!-- ============================================== ENTRY SPLIT =============================================== -->
+    <!-- ============================================== ENTRY SPLIT =============================================== -->
+    <!-- ============================================== ENTRY SPLIT =============================================== -->
+
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+    <div class="main_entry" id="lorem">
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla at fringilla nisl. Vestibulum aliquet ex eu congue vulputate. Aenean nec metus diam. Maecenas turpis leo, aliquam quis turpis id, molestie mollis ex. Donec vitae tellus id magna facilisis fermentum ut at augue. Duis venenatis nulla ac nisl semper, eget venenatis orci semper. Ut eget ipsum leo. Praesent ac augue purus. Morbi pretium felis mauris, sed tempor magna molestie id. Sed rutrum orci eget sapien lacinia tempus. Pellentesque ultricies urna leo, sed gravida velit consectetur id. Curabitur feugiat metus nec enim venenatis, at rutrum quam dictum. Morbi id vulputate odio, quis accumsan erat. Morbi vestibulum orci a sem pellentesque, eget dapibus elit molestie.</p>
+    </div>
+
+    <div class="main_entry">
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla at fringilla nisl. Vestibulum aliquet ex eu congue vulputate. Aenean nec metus diam. Maecenas turpis leo, aliquam quis turpis id, molestie mollis ex. Donec vitae tellus id magna facilisis fermentum ut at augue. Duis venenatis nulla ac nisl semper, eget venenatis orci semper. Ut eget ipsum leo. Praesent ac augue purus. Morbi pretium felis mauris, sed tempor magna molestie id. Sed rutrum orci eget sapien lacinia tempus. Pellentesque ultricies urna leo, sed gravida velit consectetur id. Curabitur feugiat metus nec enim venenatis, at rutrum quam dictum. Morbi id vulputate odio, quis accumsan erat. Morbi vestibulum orci a sem pellentesque, eget dapibus elit molestie.</p>
+    </div>
+    <div class="main_entry">
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla at fringilla nisl. Vestibulum aliquet ex eu congue vulputate. Aenean nec metus diam. Maecenas turpis leo, aliquam quis turpis id, molestie mollis ex. Donec vitae tellus id magna facilisis fermentum ut at augue. Duis venenatis nulla ac nisl semper, eget venenatis orci semper. Ut eget ipsum leo. Praesent ac augue purus. Morbi pretium felis mauris, sed tempor magna molestie id. Sed rutrum orci eget sapien lacinia tempus. Pellentesque ultricies urna leo, sed gravida velit consectetur id. Curabitur feugiat metus nec enim venenatis, at rutrum quam dictum. Morbi id vulputate odio, quis accumsan erat. Morbi vestibulum orci a sem pellentesque, eget dapibus elit molestie.</p>
+    </div>
+    <div class="main_entry">
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla at fringilla nisl. Vestibulum aliquet ex eu congue vulputate. Aenean nec metus diam. Maecenas turpis leo, aliquam quis turpis id, molestie mollis ex. Donec vitae tellus id magna facilisis fermentum ut at augue. Duis venenatis nulla ac nisl semper, eget venenatis orci semper. Ut eget ipsum leo. Praesent ac augue purus. Morbi pretium felis mauris, sed tempor magna molestie id. Sed rutrum orci eget sapien lacinia tempus. Pellentesque ultricies urna leo, sed gravida velit consectetur id. Curabitur feugiat metus nec enim venenatis, at rutrum quam dictum. Morbi id vulputate odio, quis accumsan erat. Morbi vestibulum orci a sem pellentesque, eget dapibus elit molestie.</p>
+    </div>
+    <div class="main_entry">
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla at fringilla nisl. Vestibulum aliquet ex eu congue vulputate. Aenean nec metus diam. Maecenas turpis leo, aliquam quis turpis id, molestie mollis ex. Donec vitae tellus id magna facilisis fermentum ut at augue. Duis venenatis nulla ac nisl semper, eget venenatis orci semper. Ut eget ipsum leo. Praesent ac augue purus. Morbi pretium felis mauris, sed tempor magna molestie id. Sed rutrum orci eget sapien lacinia tempus. Pellentesque ultricies urna leo, sed gravida velit consectetur id. Curabitur feugiat metus nec enim venenatis, at rutrum quam dictum. Morbi id vulputate odio, quis accumsan erat. Morbi vestibulum orci a sem pellentesque, eget dapibus elit molestie.</p>
+    </div>
+
+
+   
+</body>
+</html>
